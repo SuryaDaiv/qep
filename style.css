@@ -4,14 +4,11 @@ body{
     background-color: #61aee1;
 
 }
-#banner{
-    width: 100vw;
-    border-bottom: 1px solid 
-#ffffff;
-}
+
 
 .container {
-    margin: 10vh 10vw;
+    margin: 3vh auto;
+
 }
 .body{
     
@@ -28,6 +25,9 @@ margin-top: 0;
 margin-bottom: 10px;
     font-size: xx-large;
 text-align: right;
+letter-spacing: .085em;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
 }
 .nav-link{
     display: block;
@@ -80,7 +80,7 @@ footer a {
     background-color: 
     transparent;
 }
-footer ul {
+footer ul {             
     list-style-type: none;
 }
 .heade{
@@ -98,4 +98,18 @@ footer .disclaimer {
     line-height: 1.2;
     color: 
     rgba(255, 255, 255, 0.5);
+}
+
+
+.navbar .navbar-nav > li > a {
+    color: 
+    #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+position: relative;
+display: block;
+line-height: 20px;
 }
